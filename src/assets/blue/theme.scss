@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  font-family: #{$dynamic-font-name}, cursive;
+}
+
+h1,
+h2 {
+  color: $primary-color;
+  font-weight: normal;
+}
