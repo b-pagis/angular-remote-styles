@@ -1,5 +1,5 @@
 # Angular Remote Styles
-Small example where colours and fonts are controlled by external configuration. `ConfigurationService` contains two styling examples with different fonts and colours. Try (un)commenting to see different results.
+Small example where colours and fonts can be controlled by external configuration. `ConfigurationService` contains two examples of styles with different fonts and colours. Try (un)commenting to see different results.
 
 Application also contains loaders, to present completely loaded content.
 

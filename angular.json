@@ -26,8 +26,7 @@
               "src/favicon.ico"
             ],
             "styles": [
-                { "input": "src/assets/blue/theme.scss", "inject": false, "bundleName": "blue-module" },
-                { "input": "src/assets/green/theme.scss", "inject": false, "bundleName": "green-module" }
+                { "input": "src/assets/styles/theme.scss", "inject": false, "bundleName": "remote-style" }
             ],
             "extractCss": true,
             "scripts": [],

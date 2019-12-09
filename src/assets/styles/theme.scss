@@ -1,0 +1,50 @@
+@import "variables";
+
+html,
+body {
+  font-family: #{$font-name}, cursive;
+  margin: 0;
+  height: 100%;
+}
+
+.header {
+  background-color: $header-color;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  position: fixed;
+  top: 60px;
+  bottom: 50px;
+  left: 0px;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  background-color: $body-color;
+  color: $text-color;
+}
+
+.footer {
+  background-color: $footer-color;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.wf-loading:before {
+  content: "Loading...";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}

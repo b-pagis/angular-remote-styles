@@ -1,5 +1,8 @@
 export class Configuration {
   style: string;
-  primaryColor: string;
+  headerColor: string;
+  bodyColor: string;
+  footerColor: string;
+  textColor: string;
   fontName: string;
 }

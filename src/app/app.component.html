@@ -1,9 +1,17 @@
-<div style="text-align:center" *ngIf="isFontsLoaded && isStylesLoaded; else loading">
-  <h1>Welcome to {{ title }}!</h1>
-  <h2>Current style: {{ style }}</h2>
+<div *ngIf="isFontsLoaded && isStylesLoaded; else loading">
+  <div class="header">
+    <h1>Welcome to {{ title }}!</h1>
+  </div>
+
+  <div class="content">
+    <h2>Content</h2>
+  </div>
+
+  <div class="footer">
+    <p>Footer</p>
+  </div>
 </div>
 
 <ng-template #loading>
-  <div class="loader">
-  </div>
+  <div class="loader"></div>
 </ng-template>
